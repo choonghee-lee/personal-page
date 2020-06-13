@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "JetBrains Mono", sans-serif;
 }
 
 #content {
@@ -25,9 +26,9 @@ body {
   background-color: #000;
 }
 
-.blue-grey {
+.rose {
   color: #fff;
-  background-color: #607d8b;
+  background-color: #b81a2f;
 }
 
 .light-grey {
@@ -48,4 +49,43 @@ body {
 .teal {
   color: #fff;
   background-color: #009688;
+}
+
+.wrapper {
+  text-align: center;
+  padding: 64px 16px;
+}
+
+.wrapper-24 {
+  padding: 24px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+a.menu-item {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 16px;
+  font-size: 16px;
+}
+
+a#link-about-me:hover {
+  background-color: #b81a2f;
+}
+
+a#link-interests:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+a#link-resume:hover {
+  background-color: #3f51b5;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 45%;
 }
