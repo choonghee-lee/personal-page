@@ -89,3 +89,7 @@ a#link-resume:hover {
   border-radius: 50%;
   width: 45%;
 }
+
+.align-center {
+  margin: 0px auto 0px auto;
+}
