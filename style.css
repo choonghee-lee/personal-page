@@ -60,6 +60,35 @@ body {
   padding: 24px;
 }
 
+/* .wrapper-table {
+  align-self: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  width: 95%;
+} */
+
+.experience-table {
+  align-self: center;
+  margin-top: 64px;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+}
+
+.experience-table td,
+.experience-table th {
+  padding: 16px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+
+.experience-table th:first-child,
+.experience-table td:first-child {
+  padding-left: 16px;
+}
+
 h1 {
   font-size: 36px;
 }
@@ -77,12 +106,12 @@ a#link-about-me:hover {
 }
 
 a#link-interests:hover {
-  background-color: #f1f1f1;
-  color: #000;
+  background-color: #3f51b5;
 }
 
 a#link-resume:hover {
-  background-color: #3f51b5;
+  background-color: #f1f1f1;
+  color: #000;
 }
 
 .img-circle {
