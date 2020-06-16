@@ -53,7 +53,15 @@ body {
 
 .wrapper {
   text-align: center;
-  padding: 64px 16px;
+  padding: 64px 32px;
+}
+
+.wrapper-contact {
+  text-align: start;
+  padding-top: 64px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .wrapper-24 {
@@ -121,4 +129,31 @@ a#link-resume:hover {
 
 .align-center {
   margin: 0px auto 0px auto;
+}
+
+.my-input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 96%;
+}
+
+.wrapper-input {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+}
+
+.button-submit {
+  float: right;
+  font-size: 16px;
+  border: none;
+  padding: 8px;
+  margin-right: 32px;
+}
+
+.button-submit:hover {
+  background-color: #ccc;
+  color: #000;
 }
